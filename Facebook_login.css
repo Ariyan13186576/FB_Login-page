@@ -62,10 +62,10 @@ body{
 }
 
 .txt_5{
-    font-size: 13px;
+    font-size: 14px;
     font-family: sans-serif;
     color: black;
-    margin-top: 60px;
+    margin-top: 70px;
 }
 
 .txt_5 a{
@@ -85,14 +85,15 @@ input{
     width: 100%;
     border: 1px solid rgb(189, 188, 188);
     border-radius: 4px;
-
-
+    padding-left: 10px;
+    font-size: 17px; 
 }
+
 ::placeholder{
-    font-size: 20px;
+    font-size: 19px;
     color: rgb(185, 182, 182) ;
     margin-left: 10px;
-    padding-left: 10px;
+    padding-left: 5px;
 }
 
 .btn_1{
@@ -136,7 +137,7 @@ hr{
 .btn_2{
     margin-top: 25px;
     height: 50px;
-    width: 50%;
+    width: 100%;
     background-color: rgb(66,183,42);
     border: 1px solid rgb(66,183,42);
     border-radius: 4px;
@@ -145,10 +146,11 @@ hr{
     font-weight: bold;
     display: flex;
     justify-content: center;   
-    align-items: center; 
-    margin: 0px auto;
+    align-items: center;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
 
 .foot{
     display:flex;
@@ -170,7 +172,8 @@ hr{
     color:gray;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    padding: 7px;
+    padding: 12px;
+    padding-top: 30px;
 }
 
 .foot a:hover{
@@ -188,7 +191,12 @@ hr{
     color: grey;
 }
 
-
+.ppp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+}
 
         /*Responsive*/
 
@@ -222,7 +230,8 @@ hr{
     width: 100%;
     display:inline-block;
     justify-content:center;  
-    padding-top: 10px;
+    margin-top: 45px;
+
 }
 
 
@@ -231,6 +240,9 @@ hr{
     text-decoration: none;
     width:100%;
     max-width: 100%;
+    text-align: center;
+    padding: 12px;
+    margin-top: 0px;
     
 }
 
@@ -241,27 +253,34 @@ hr{
 }
 
 .btn_2{
-    margin-top: 15px;
+    margin-top: 20px;
+    margin-left: 7%;
     height: 45px;
-    width: 77%;
+    width: 85%;
     border-radius: 7px;
     font-size: 13px;
     font-weight: none;
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    text-align: center;
    
 }
 
 
 .txt_5{
     font-size: 9px;
-    margin-top: 43px;
+    margin-top: 47px;
+    padding-bottom: 50px;
 
 }
 
 .txt_5 a{
-    font-size: 12px;
+    font-size: 11px;
     font-weight: none;
 
 }
+
 
 ::placeholder{
     font-size: 12px;
@@ -285,6 +304,14 @@ input[type="text"] {
 input[type="password"] {
     padding-left: 7px;
     font-size: 17px; 
+}
+
+.ppp{
+    padding: 0px auto;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    
+    
 }
 
 }

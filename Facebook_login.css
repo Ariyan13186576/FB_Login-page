@@ -1,0 +1,290 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(240,242,245);
+}
+
+.facebook{
+    height: 300px;
+    width: 100%;
+}
+.facebook_1{
+    height: 500px;
+    width:100% ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px auto;
+    }
+    
+.face{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.paragraph{
+    line-height: 30px;
+    padding-right: 35px;
+}
+.txt_3{
+    line-height: 0px;
+    color: #0866FF;
+    font-family: Sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.txt_4{
+    line-height: 30px;
+    margin-top: 0px ;
+    color: black;
+    font-family: Sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.login{
+    box-shadow: 0px 0px 10px gray;
+    height: 356px;
+    width: 350px;
+    background-color: rgb(255,255,255);
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 0;
+    margin-left: 95px;
+   
+}
+
+.txt_5{
+    font-size: 13px;
+    font-family: sans-serif;
+    color: black;
+    margin-top: 60px;
+}
+
+.txt_5 a{
+    font-size: 15px;
+    font-family: sans-serif;
+    color: black;
+    font-weight: bold;
+    text-decoration: none; 
+}
+
+.txt_5 a:hover{
+    text-decoration: underline; 
+}
+
+input{
+    height: 45px;
+    width: 100%;
+    border: 1px solid rgb(189, 188, 188);
+    border-radius: 4px;
+
+
+}
+::placeholder{
+    font-size: 20px;
+    color: rgb(185, 182, 182) ;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.btn_1{
+    margin-top: 15px ;
+    height: 50px;
+    width: 100%;
+    background-color: #0866FF;
+    border: 1px solid #0866FF;
+    border-radius: 4px;
+    border: none;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+.for{
+    color: #0866FF;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;   
+    align-items: center; 
+    margin-top: 15px;
+}
+
+a:hover{
+    text-decoration: underline;
+
+}
+
+
+hr{
+    margin-top: 20px;
+    background-color: rgb(185, 182, 182);
+    font-size: 3px;
+    height: 1px;
+    border: none;
+}
+
+.btn_2{
+    margin-top: 25px;
+    height: 50px;
+    width: 50%;
+    background-color: rgb(66,183,42);
+    border: 1px solid rgb(66,183,42);
+    border-radius: 4px;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;   
+    align-items: center; 
+    margin: 0px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.foot{
+    display:flex;
+    justify-content:space-evenly;
+    position: absolute;
+    background-color: white;
+    height: 150px;
+    width: 100%;
+    display:flex;
+    justify-content:center;
+    margin-top: 25px;
+
+}
+
+
+.foot a{
+    font-size: 12px;
+    text-align: center;
+    color:gray;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding: 7px;
+}
+
+.foot a:hover{
+    text-decoration: underline;
+}
+
+.text_2{
+    position: absolute;
+    bottom: -30%;
+    height: 200px;
+    width: 880px;
+}
+
+.text_2{
+    color: grey;
+}
+
+
+
+        /*Responsive*/
+
+@media screen and ( max-width:320px) {
+
+.paragraph{
+        width: 100%;
+        text-align: center;
+        padding: 0 auto;
+        line-height: normal;
+        margin: 35px 20px 0px 25px;
+
+    }
+
+.face{
+    flex-wrap: wrap;
+    height: 500px;
+    width: 100%;
+}
+
+.login{
+    height: 335px;
+    width: 80%;
+    margin: 0px
+    10px 0px 35px;
+    text-align: center;
+}
+
+.foot{
+    height: auto;
+    width: 100%;
+    display:inline-block;
+    justify-content:center;  
+    padding-top: 10px;
+}
+
+
+.foot a{
+    font-size: 10px;
+    text-decoration: none;
+    width:100%;
+    max-width: 100%;
+    
+}
+
+
+.txt_4{
+    font-size: 15px;
+    font-style: normal;
+}
+
+.btn_2{
+    margin-top: 15px;
+    height: 45px;
+    width: 77%;
+    border-radius: 7px;
+    font-size: 13px;
+    font-weight: none;
+   
+}
+
+
+.txt_5{
+    font-size: 9px;
+    margin-top: 43px;
+
+}
+
+.txt_5 a{
+    font-size: 12px;
+    font-weight: none;
+
+}
+
+::placeholder{
+    font-size: 12px;
+    text-align: left;
+
+}
+
+
+.btn_1{
+    font-size: 20px;
+    font-weight: none;
+}
+
+
+
+input[type="text"] {
+    padding-left: 7px;
+    font-size: 17px; 
+}
+
+input[type="password"] {
+    padding-left: 7px;
+    font-size: 17px; 
+}
+
+}
